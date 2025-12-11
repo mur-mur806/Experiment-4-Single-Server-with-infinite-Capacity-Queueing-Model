@@ -28,6 +28,7 @@ If the arrival of materials follow poisson process with mean interval time 12 se
 # slot No: 3P1-1
 
 # Program
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)")) 
 ser_time=float(input("Enter the mean inter servie time of Lathe Machine (in secs):")) 
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs):")) 
@@ -52,6 +53,7 @@ if(lam<mu):
 else: 
     print("Warning! Objects overflow will happen in the conveyer") 
 print("----------------------------------------")
+```
 
 # Output
 <img width="731" height="339" alt="image" src="https://github.com/user-attachments/assets/ca0eb0be-49a6-4806-aa16-074fb78de093" />
